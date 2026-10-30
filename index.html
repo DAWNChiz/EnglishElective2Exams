@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>English Elective 2 Exam Prep</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{--bg:#faf7f2;--card:#fff;--tx:#23201c;--mu:#6b645b;--ac:#b4472f;--ac2:#f6e3dc;--ok:#2e7d4f;--okb:#e3f3e9;--no:#b3261e;--nob:#fbe4e2;--bd:#e6dfd4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#17150f;--card:#221f18;--tx:#f1ece3;--mu:#a59d90;--ac:#e8836a;--ac2:#3a2620;--ok:#6fcf97;--okb:#1d3326;--no:#f2958e;--nob:#3a1f1d;--bd:#38332a}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 Georgia,"Times New Roman",serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--bd);padding:10px 16px;z-index:5;display:flex;align-items:center;gap:12px}
+header b{font-size:16px;flex:1;cursor:pointer}.bar{height:8px;background:var(--bd);border-radius:9px;width:90px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ok);width:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:6}
+main{max-width:720px;margin:0 auto;padding:18px 16px 60px}
+h1{font-size:28px;line-height:1.2;margin:.2em 0}h2{font-size:22px;margin:1.3em 0 .4em}h3{font-size:18px;margin:1em 0 .3em;color:var(--ac)}
+p{margin:.5em 0}.mu{color:var(--mu);font-size:15px}
+.grid{display:grid;gap:10px}.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 16px}
+button.card{width:100%;text-align:left;font:inherit;color:inherit;cursor:pointer;display:flex;gap:12px;align-items:center}
+button.card:hover{border-color:var(--ac)}.n{background:var(--ac2);color:var(--ac);border-radius:50%;min-width:34px;height:34px;display:grid;place-items:center;font:700 15px system-ui}
+.tag{font:600 12px system-ui;letter-spacing:.05em;text-transform:uppercase;color:var(--mu);margin:22px 0 8px}
+.box{background:var(--ac2);border-left:4px solid var(--ac);border-radius:8px;padding:10px 14px;margin:12px 0}
+.model{background:var(--card);border:1px dashed var(--ac);border-radius:12px;padding:6px 16px;margin:12px 0}
+.model h4{margin:.8em 0 .2em;color:var(--ac);font:700 13px system-ui;text-transform:uppercase;letter-spacing:.05em}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0;display:block;overflow-x:auto}td,th{border:1px solid var(--bd);padding:6px 10px;text-align:left}th{background:var(--ac2)}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:11px 18px;font:600 15px system-ui;cursor:pointer;margin:6px 6px 0 0}.btn.g{background:var(--card);color:var(--tx);border:1px solid var(--bd)}
+.q{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;margin:12px 0}.q p:first-child{margin-top:0;font-weight:700}
+.o{display:block;width:100%;text-align:left;font:inherit;font-size:16px;color:inherit;background:var(--bg);border:1px solid var(--bd);border-radius:10px;padding:9px 12px;margin:6px 0;cursor:pointer}
+.o.ok{background:var(--okb);border-color:var(--ok)}.o.no{background:var(--nob);border-color:var(--no)}.why{font-size:15px;margin-top:8px;color:var(--mu)}
+a.back{color:var(--ac);cursor:pointer;font:600 15px system-ui}
+</style></head><body>
+<header><b onclick="home()">📘 English Elective 2</b><span class="mu" id="pc"></span><div class="bar"><i id="pb"></i></div></header>
+<main id="app"></main>
+<script>
+var T=[
+{u:1,t:"Autobiography Writing",s:"Imaginary life story of an animal or object",learn:`
+<p>You pretend to be an animal or an object and tell your own life story using <b>“I”</b>. The examiner wants imagination, simple correct English and a clear order from birth to now.</p>
+<div class="box"><b>Remember:</b> Use first person (I, my, me). Use mostly past tense for your story, and present tense for how you feel now. Give feelings, not only facts.</div>
+<h3>Steps</h3><p>1. Choose: who am I? 2. Birth or beginning. 3. Early life. 4. Main events (happy and sad). 5. Present life. 6. Message or lesson at the end.</p>
+<div class="model"><h4>Model answer: Autobiography of an Old Umbrella</h4>
+<p>I am an old umbrella, and my colour has faded with time. I was born in a small factory, where I was made with black cloth and a strong wooden handle. A shopkeeper placed me on a shelf, and I waited many days for someone to choose me.</p>
+<p>One rainy morning, a kind schoolgirl bought me. From that day, I went with her everywhere. I protected her from heavy rain and burning sun. Once, a strong wind turned me inside out, and I felt very sad, but she repaired me with love.</p>
+<p>Now my cloth is torn and my handle is loose, so I rest in a corner of the house. I am not unhappy. I served someone well, and that gives me joy. Life teaches us that being useful is better than being new.</p></div>
+<div class="box"><b>Exam tip:</b> Write about 250 to 300 words. Keep sentences short. Make sure the ending carries a lesson.</div>`,
+q:[["Which person is used in an autobiography?",["First person (I)","Third person (he/she)","Second person (you)"],0,"The writer is telling their own story, so the word “I” is used."],
+["Which is the best order of an autobiography?",["Present, birth, ending","Birth, main events, present, message","Message, birth, present"],1,"A life story moves in time from beginning to now, then closes with a lesson."]]},
+{u:1,t:"Dialogue Writing",s:"Imaginary conversation between two people",learn:`
+<p>A dialogue is a conversation between two people. You write what each person says, one by one.</p>
+<div class="box"><b>Format:</b> Write the speaker’s name, then a colon, then the words. Start a new line for each speaker. Do not use inverted commas. Keep the language natural and short.</div>
+<h3>Steps</h3><p>1. Decide who the two people are and the topic. 2. Start with a greeting. 3. Ask and answer questions. 4. Give opinions and reasons. 5. End politely.</p>
+<div class="model"><h4>Model: Two friends discuss exam preparation</h4>
+<p><b>Riya:</b> Hello Meena! How is your preparation going?<br><b>Meena:</b> Hi Riya! It is going well, but I find grammar difficult.<br><b>Riya:</b> Don’t worry. I practise ten sentences every day.<br><b>Meena:</b> That is a good idea. Do you also revise at night?<br><b>Riya:</b> No, I study in the morning because my mind is fresh.<br><b>Meena:</b> I will try that. Thank you for the advice.<br><b>Riya:</b> You are welcome. Best of luck for the exam!<br><b>Meena:</b> Same to you. Bye!</p></div>
+<div class="box"><b>Exam tip:</b> Write at least 10 to 12 exchanges. Use polite words like please, thank you, sorry.</div>`,
+q:[["How do you show who is speaking in a dialogue?",["Inverted commas","Name followed by a colon","Brackets"],1,"Example: Riya: Hello! Each speaker begins on a new line."],
+["Which opening is best for a dialogue?",["A greeting","A long paragraph","The ending"],0,"Real conversations start with a greeting such as Hello or Good morning."]]},
+{u:1,t:"Report Writing",s:"Reporting an event or incident",learn:`
+<p>A report gives <b>facts</b> about something that happened, for newspaper readers. It is formal, written in the <b>past tense</b> and in the <b>third person</b> (not “I”).</p>
+<h3>Format</h3><table><tr><th>Part</th><th>What to write</th></tr><tr><td>Headline</td><td>Short and catchy</td></tr><tr><td>Byline</td><td>By: Reporter’s name</td></tr><tr><td>Place and date</td><td>Ranchi, 2 November</td></tr><tr><td>Body</td><td>What, where, when, who, why, how</td></tr><tr><td>Ending</td><td>Result, quote or action taken</td></tr></table>
+<div class="model"><h4>Model: Fire at a Market</h4>
+<p><b>MARKET FIRE DAMAGES TEN SHOPS</b><br><i>By: Staff Reporter</i><br><i>Ranchi, 2 November:</i> A fire broke out in the Main Road market at about 8 pm on Tuesday, and ten shops were badly damaged.</p>
+<p>According to eyewitnesses, the fire started from an electric short circuit. Local people and the fire brigade reached the spot within fifteen minutes and controlled the fire after two hours. No one was injured.</p>
+<p>The police have started an enquiry. A shopkeeper said, “We have lost everything.” The administration promised help to the affected traders.</p></div>
+<div class="box"><b>Exam tip:</b> Always answer the 5 W’s and 1 H. Never add your own opinion.</div>`,
+q:[["Which tense is mainly used in a report?",["Past","Future","Present continuous"],0,"A report tells about something that has already happened."],
+["Which is NOT part of a news report?",["Headline","Byline","Your personal feelings"],2,"Reports are factual and do not include personal opinion."]]},
+{u:1,t:"Process Writing",s:"Factual description of a process",learn:`
+<p>You explain <b>how something is made or done</b>, step by step. For example, how to make tea or how rain forms.</p>
+<div class="box"><b>Rules:</b> Use the <b>present tense</b>. Often use the <b>passive</b> (the water is boiled). Use sequence words: <i>first, then, next, after that, finally</i>. Do not use “I”.</div>
+<div class="model"><h4>Model: How tea is made</h4>
+<p>Tea is a popular drink and is easy to prepare. First, water is poured into a pan and boiled. Next, one spoon of tea leaves and some sugar are added to the boiling water. After that, milk is added and the mixture is boiled for two minutes. Then the tea is filtered through a strainer into cups. Finally, the hot tea is served with biscuits.</p></div>
+<div class="box"><b>Exam tip:</b> One step in each sentence. Keep the order correct. Add a title and a short introduction.</div>`,
+q:[["Which tense is mostly used in process writing?",["Simple present","Simple past","Future perfect"],0,"A process is a general fact, so we write: water is boiled."],
+["Which word shows sequence?",["Because","Next","Although"],1,"First, next, then, finally show the order of steps."]]},
+{u:1,t:"Appreciation of Poetry",s:"Substance and form of a given poem",learn:`
+<p>You are given a poem and asked questions about <b>substance</b> (what it says) and <b>form</b> (how it is written). Read the poem slowly two times first.</p>
+<h3>Substance (content)</h3><p>Theme (main idea), speaker, mood and tone, message.</p>
+<h3>Form (style)</h3><table><tr><th>Term</th><th>Meaning</th></tr><tr><td>Stanza</td><td>A group of lines</td></tr><tr><td>Rhyme scheme</td><td>Pattern of end sounds: ABAB</td></tr><tr><td>Simile</td><td>Comparison with like or as: brave as a lion</td></tr><tr><td>Metaphor</td><td>Direct comparison: life is a journey</td></tr><tr><td>Personification</td><td>Non-living thing acts human: the wind whispered</td></tr><tr><td>Alliteration</td><td>Repeated starting sound: silver sea</td></tr><tr><td>Imagery</td><td>Words that make a picture in the mind</td></tr></table>
+<div class="model"><h4>Answer template (use this every time)</h4>
+<p>1. <b>Introduction:</b> The poem “…” by … is about …<br>2. <b>Theme:</b> The main idea is …<br>3. <b>Summary:</b> In the first stanza the poet says … In the second …<br>4. <b>Form:</b> The poem has … stanzas and the rhyme scheme is … The poet uses simile/metaphor in the line “…”<br>5. <b>Tone and message:</b> The tone is … The poem teaches us that …</p></div>
+<div class="box"><b>Exam tip:</b> Always quote one or two lines from the poem as proof for every point you make.</div>`,
+q:[["“The wind whispered to the trees” is an example of:",["Simile","Personification","Alliteration"],1,"The wind is a non-living thing doing a human action (whispering)."],
+["“Her smile is like sunshine” is a:",["Metaphor","Simile","Stanza"],1,"It uses the word “like” to compare two things."]]},
+{u:1,t:"Book and Movie Reviews",s:"Judge a book or film and explain why",learn:`
+<p>A review tells readers what a book or film is about and gives <b>your opinion with reasons</b>. Do not tell the whole story. Never reveal the ending.</p>
+<h3>Structure</h3><p>1. Title, author or director, genre. 2. Short story summary. 3. Characters. 4. What is good (theme, acting, writing). 5. What is weak. 6. Final opinion and who should read or watch it.</p>
+<div class="model"><h4>Model: Review of the film “3 Idiots”</h4>
+<p><b>3 Idiots</b> is a 2009 Hindi comedy-drama directed by Rajkumar Hirani. It follows three engineering students and their friendship.</p>
+<p>The film shows how pressure to score marks can destroy creativity. Aamir Khan plays Rancho, a student who learns for knowledge, not for grades. The acting is natural, the songs are meaningful, and the humour carries a serious message.</p>
+<p>A small weakness is that some scenes are slightly long. Still, the film is inspiring and entertaining. I recommend it to every student and parent.</p></div>
+<div class="box"><b>Exam tip:</b> Use opinion words: impressive, touching, well written, slow, predictable. Write in the present tense.</div>`,
+q:[["What should a review NOT do?",["Give your opinion","Reveal the ending","Mention the author"],1,"Spoiling the ending takes away the reader’s interest."],
+["A review is mostly based on:",["Facts only","Opinion with reasons","Fiction"],1,"You must say what you think and explain why."]]},
+{u:2,t:"Determiners",s:"Using suitable determiners in sentences",learn:`
+<p>A determiner comes <b>before a noun</b> and tells which one or how many.</p>
+<table><tr><th>Type</th><th>Examples</th></tr><tr><td>Articles</td><td>a, an, the</td></tr><tr><td>Demonstratives</td><td>this, that, these, those</td></tr><tr><td>Possessives</td><td>my, your, his, her, our, their</td></tr><tr><td>Quantifiers</td><td>some, any, much, many, few, little, all</td></tr><tr><td>Distributives</td><td>each, every, either, neither</td></tr></table>
+<div class="box"><b>Key rules:</b><br>• <b>a</b> before a consonant <i>sound</i> (a book, a university); <b>an</b> before a vowel <i>sound</i> (an apple, an hour).<br>• <b>many</b> + countable (many books); <b>much</b> + uncountable (much water).<br>• <b>few</b> = not many (countable); <b>little</b> = not much (uncountable). <b>A few / a little</b> means some, a positive idea.<br>• <b>each / every</b> + singular verb. <b>some</b> in positive sentences, <b>any</b> in negatives and questions.<br>• <b>the</b> for a particular thing already known (the sun, the book I bought).</div>`,
+q:[["She is ___ honest girl.",["a","an","the"],1,"“Honest” starts with a vowel sound (the h is silent), so we use an."],
+["There is not ___ sugar in the tea.",["many","any","few"],1,"Any is used in negative sentences. Sugar is uncountable, so many/few are wrong."],
+["Every student ___ present today.",["is","are","were"],0,"Every is followed by a singular noun and a singular verb."],
+["I have ___ friends here, so I feel lonely.",["a few","few","little"],1,"Few means almost none (negative idea), which matches feeling lonely."]]},
+{u:2,t:"Prepositions",s:"Using appropriate prepositions",learn:`
+<p>A preposition shows the relation of a noun to another word: time, place or direction.</p>
+<table><tr><th></th><th>Use</th><th>Example</th></tr><tr><td><b>at</b></td><td>exact time, small point</td><td>at 5 pm, at the door</td></tr><tr><td><b>on</b></td><td>days, dates, surfaces</td><td>on Monday, on the table</td></tr><tr><td><b>in</b></td><td>months, years, large places</td><td>in May, in India</td></tr><tr><td><b>for / since</b></td><td>for = period, since = starting point</td><td>for 3 years, since 2023</td></tr><tr><td><b>by / with</b></td><td>by = doer or way, with = tool</td><td>by bus, with a pen</td></tr></table>
+<div class="box"><b>Fixed pairs (learn by heart):</b> good at, afraid of, interested in, depend on, absent from, married to, angry with (person), angry at (thing), prefer A to B, different from, congratulate on, listen to, wait for.</div>`,
+q:[["The exam starts ___ 10 o’clock.",["on","at","in"],1,"At is used for exact time."],
+["She has lived here ___ 2020.",["for","since","from"],1,"Since is used with a starting point in time."],
+["I am afraid ___ dogs.",["of","from","to"],0,"Afraid of is a fixed pair."],
+["He is good ___ mathematics.",["in","at","on"],1,"We say good at a subject or skill."]]},
+{u:2,t:"Active and Passive Voice",s:"Change active to passive and back",learn:`
+<p><b>Active:</b> the doer comes first (Ram eats an apple). <b>Passive:</b> the receiver of the action comes first (An apple is eaten by Ram).</p>
+<div class="box"><b>Formula:</b> Object + <b>be verb</b> (in the same tense) + <b>past participle (V3)</b> + by + subject.</div>
+<table><tr><th>Tense</th><th>Active</th><th>Passive</th></tr><tr><td>Simple present</td><td>She writes a letter.</td><td>A letter is written by her.</td></tr><tr><td>Simple past</td><td>She wrote a letter.</td><td>A letter was written by her.</td></tr><tr><td>Present continuous</td><td>She is writing a letter.</td><td>A letter is being written by her.</td></tr><tr><td>Present perfect</td><td>She has written a letter.</td><td>A letter has been written by her.</td></tr><tr><td>Simple future</td><td>She will write a letter.</td><td>A letter will be written by her.</td></tr><tr><td>Modal</td><td>She can write a letter.</td><td>A letter can be written by her.</td></tr></table>
+<p><b>Steps:</b> 1. Find subject, verb, object. 2. Swap places. 3. Choose the correct be verb for the tense. 4. Use V3. 5. Add by + doer (optional). Pronouns change: I→me, he→him, they→them.</p>`,
+q:[["Passive of: The teacher teaches the lesson.",["The lesson is taught by the teacher.","The lesson was taught by the teacher.","The lesson teaches the teacher."],0,"Simple present, so is + V3 (taught)."],
+["Passive of: They have completed the work.",["The work is completed by them.","The work has been completed by them.","The work was completed by them."],1,"Present perfect becomes has/have been + V3."],
+["Passive of: She is cooking dinner.",["Dinner is being cooked by her.","Dinner was cooked by her.","Dinner is cooked by her."],0,"Present continuous becomes is/am/are being + V3."],
+["Active of: The window was broken by Raju.",["Raju breaks the window.","Raju broke the window.","Raju has broken the window."],1,"Was + V3 is simple past, so the active uses V2 (broke)."]]},
+{u:2,t:"Direct and Indirect Speech",s:"Change sentences between the two",learn:`
+<p><b>Direct:</b> exact words in inverted commas. <b>Indirect:</b> we report the words without quotes, using <b>that</b>.</p>
+<h3>Rule 1: Tense moves one step back (if reporting verb is past)</h3>
+<table><tr><th>Direct</th><th>Indirect</th></tr><tr><td>am/is/are</td><td>was/were</td></tr><tr><td>simple present (eats)</td><td>simple past (ate)</td></tr><tr><td>present continuous</td><td>past continuous</td></tr><tr><td>present perfect (has done)</td><td>past perfect (had done)</td></tr><tr><td>simple past</td><td>past perfect</td></tr><tr><td>will / can</td><td>would / could</td></tr></table>
+<h3>Rule 2: Words change</h3><p>now→then, today→that day, tomorrow→the next day, yesterday→the day before, this→that, here→there, I→he/she (as per speaker), my→his/her.</p>
+<h3>Rule 3: Sentence types</h3><p>• Statement: said <b>that</b>. • Question: asked + if/whether (yes/no) or the wh-word, with normal order (no question mark). • Command: told/ordered + to + verb. • Request: requested + to + verb.</p>
+<div class="box"><b>Examples:</b><br>He said, “I am tired.” → He said that he was tired.<br>She asked, “Do you like tea?” → She asked if I liked tea.<br>The teacher said, “Open your books.” → The teacher told us to open our books.<br><i>Note:</i> universal truths do not change: He said that the sun rises in the east.</div>`,
+q:[["Indirect: He said, “I am busy.”",["He said that he is busy.","He said that he was busy.","He said that I was busy."],1,"am becomes was, and I becomes he."],
+["Indirect: She said, “I will come tomorrow.”",["She said that she would come the next day.","She said that she will come tomorrow.","She said she would come tomorrow."],0,"will becomes would, and tomorrow becomes the next day."],
+["Indirect: He asked, “Where do you live?”",["He asked where did I live.","He asked where I lived.","He asked that where I live."],1,"Use normal word order (no did) and no question mark."],
+["Direct: The mother told her son to sit down.",["The mother said, “Sit down.”","The mother said, “He sits down.”","The mother said, “You sit down?”"],0,"A command becomes a direct order in inverted commas."]]}
+];
+var A=document.getElementById("app"),P={};
+try{P=JSON.parse(localStorage.getItem("eep")||"{}")}catch(e){}
+function sv(){try{localStorage.setItem("eep",JSON.stringify(P))}catch(e){}}
+function prog(){var d=T.filter(function(x,i){return P["t"+i]}).length;document.getElementById("pc").textContent=d+"/"+T.length;document.getElementById("pb").style.width=(d/T.length*100)+"%"}
+function home(){window.scrollTo(0,0);var h='<h1>English Elective 2 (AEC-4)</h1><p class="mu">Ranchi University FYUGP, Semester IV. 50 marks, 1.5 hours. Every topic works like a short class: read one small part, answer practice questions on it, then continue to the next part. Tap a topic to start.</p><p class="mu">Exam pattern from your syllabus: 50 marks, 1.5 hours. Writing topics are marked like 15-mark answers, so each Unit I topic ends with a self-marking checklist.</p>';
+[1,2].forEach(function(u){h+='<div class="tag">'+(u==1?"Unit I: Writing skills":"Unit II: Grammar")+'</div><div class="grid">';T.forEach(function(x,i){if(x.u==u)h+='<button class="card" onclick="topic('+i+')"><span class="n">'+(P["t"+i]?"✓":i+1)+'</span><span><b>'+x.t+'</b><br><span class="mu">'+x.s+'</span></span></button>'});h+='</div>'});
+h+='<div class="tag">Test yourself</div><button class="card" onclick="mock()"><span class="n">★</span><span><b>Mixed practice test</b><br><span class="mu">10 random questions from all topics</span></span></button>';
+h+='<div class="tag">Exam day tips</div><div class="card mu">• Read the question twice and check the word limit.<br>• Writing questions: plan in 2 minutes (points, order), then write.<br>• Use simple, correct sentences. Clear English earns more marks than difficult words.<br>• Check spelling, tense and punctuation in the last 5 minutes.<br>• Manage time: divide your 90 minutes equally between questions.</div>';
+A.innerHTML=h;prog()}
+function qhtml(qs,pre){var h="";qs.forEach(function(q,i){h+='<div class="q"><p>'+(i+1)+'. '+q[0]+'</p>';q[1].forEach(function(o,j){h+='<button class="o" data-p="'+pre+'" data-i="'+i+'" data-j="'+j+'">'+o+'</button>'});h+='<div class="why" id="w'+pre+i+'"></div></div>'});return h}
+var S={};
+A.addEventListener("click",function(e){var b=e.target.closest(".o:not(.pq)");if(!b||b.disabled)return;var pre=b.dataset.p,i=+b.dataset.i,j=+b.dataset.j,q=(S[pre]||[])[i];if(!q)return;
+var bs=A.querySelectorAll('.o[data-p="'+pre+'"][data-i="'+i+'"]');bs.forEach(function(x,k){x.disabled=true;if(k==q[2])x.classList.add("ok")});
+if(j!=q[2])b.classList.add("no");else S.score=(S.score||0)+1;
+document.getElementById("w"+pre+i).textContent=(j==q[2]?"Correct. ":"Not quite. ")+q[3];S.done=(S.done||0)+1;
+var r=document.getElementById("res");if(r&&S.done==S.total)r.innerHTML='<div class="box"><b>Your score: '+S.score+" / "+S.total+"</b><br>"+(S.score==S.total?"Excellent work!":"Good effort. Read the explanations above and try again.")+"</div>"})
+function topic(i){var x=T[i];window.scrollTo(0,0);S={score:0,done:0,total:x.q.length};S["t"+i]=x.q;
+A.innerHTML='<a class="back" onclick="home()">← All topics</a><div class="tag">'+(x.u==1?"Unit I":"Unit II")+'</div><h1>'+x.t+'</h1>'+x.learn+'<h2>Practice</h2>'+qhtml(x.q,"t"+i)+'<div id="res"></div><button class="btn" onclick="fin('+i+')">Mark topic as done ✓</button>'+(i<T.length-1?'<button class="btn g" onclick="topic('+(i+1)+')">Next topic →</button>':"")+'<button class="btn g" onclick="home()">Home</button>'}
+function fin(i){P["t"+i]=1;sv();home()}
+function mock(){var all=[];T.forEach(function(x){x.q.forEach(function(q){all.push(q)})});all.sort(function(){return Math.random()-.5});var qs=all.slice(0,10);window.scrollTo(0,0);S={score:0,done:0,total:10,m:qs};
+A.innerHTML='<a class="back" onclick="home()">← Home</a><h1>Mixed practice test</h1><p class="mu">Tap the best answer. You will see the reason after each one.</p>'+qhtml(qs,"m")+'<div id="res"></div><button class="btn" onclick="mock()">New test</button>'}
+var X={4:[["“The stars danced in the sky.” This is:",["Personification","Simile","Alliteration"],0,"Stars are non-living but ‘dance’ like humans."],["“He is a lion in battle.” This is a:",["Simile","Metaphor","Rhyme"],1,"Direct comparison without like or as."],["“Peter picked purple peppers.” The device is:",["Alliteration","Imagery","Stanza"],0,"The sound p repeats at the start of words."],["The rhyme scheme of day, sky, way, high is:",["AABB","ABAB","ABBA"],1,"day and way rhyme (A), sky and high rhyme (B)."],["A group of lines in a poem is a:",["Stanza","Theme","Tone"],0,"Stanza is the poem’s ‘paragraph’."],["Words that create a picture in the reader’s mind are:",["Imagery","Rhyme","Title"],0,"Imagery appeals to the senses (sight, sound, smell)."]],
+0:[["Which sentence suits the autobiography of a pen?",["I was filled with blue ink every morning.","The pen is filled with ink.","You fill the pen."],0,"First person and past tense, with feeling."],["Which is the best ending?",["I learnt that being useful brings true happiness.","The end.","Thank you, bye."],0,"A lesson gives marks for thought."]],
+1:[["Which is the correct format?",["Riya: Where are you going?","“Where are you going?” said Riya.","Riya said she was going."],0,"Name, colon, words."],["Which sounds natural between friends?",["Hi! Did you finish the notes?","Greetings, esteemed colleague, did you complete the notes?","I request your presence."],0,"A dialogue should sound like real speech."]],
+2:[["Which headline is best for a report?",["Bus Overturns Near Ranchi, Ten Injured","I saw a sad accident","accident"],0,"Short, factual and informative."],["Choose the correct line for a report.",["The accident occurred at 6 am on Monday.","I think the driver was foolish.","The accident will occur."],0,"Past tense and no personal opinion."]],
+3:[["Change to passive: We boil the milk.",["The milk is boiled.","The milk boiled.","The milk is boiling by us."],0,"Process writing uses the simple present passive."],["Best title for a process?",["How Paper Is Made","I make paper","Paper is nice"],0,"A process title starts with How."]],
+5:[["Which is an opinion word?",["touching","released in 2009","directed by Rajkumar Hirani"],0,"Touching shows what you feel."],["Best final line of a review?",["I strongly recommend this film to every student.","In the end the hero dies.","Bye."],0,"Give a recommendation, never the ending."]],
+6:[["___ umbrella is lying on the floor.",["A","An","Few"],1,"Umbrella starts with a vowel sound."],["He has ___ money, so he cannot buy the book.",["a little","little","few"],1,"Little means almost none; money is uncountable."],["I have two pens, but ___ of them works.",["either","neither","each"],1,"Neither means not one and not the other."],["___ moon goes round the earth.",["A","The","An"],1,"There is only one moon, so we use the."],["How ___ students are in your class?",["much","many","little"],1,"Students are countable."],["Can I have ___ water, please?",["some","many","few"],0,"Some is used in requests; water is uncountable."]],
+7:[["My birthday is ___ 12 March.",["at","on","in"],1,"On is used with dates."],["She was born ___ 2004.",["on","at","in"],2,"In is used with years."],["The cat jumped ___ the wall.",["over","since","for"],0,"Over shows movement above something."],["He is married ___ my cousin.",["with","to","by"],1,"Married to is a fixed pair."],["I prefer tea ___ coffee.",["than","to","from"],1,"We say prefer A to B."],["She has been waiting ___ two hours.",["since","for","from"],1,"For is used with a period of time."]],
+8:[["Passive: Birds build nests.",["Nests are built by birds.","Nests were built by birds.","Nests built birds."],0,"Simple present: are + V3."],["Passive: Who wrote this poem?",["By whom was this poem written?","Who was written this poem?","By whom is this poem written?"],0,"Simple past question: was + V3."],["Active: The letter will be posted by me.",["I will post the letter.","I posted the letter.","I will posted the letter."],0,"will be + V3 returns to will + V1."],["Passive: Open the door.",["Let the door be opened.","The door is opened.","Door open."],0,"Commands: Let + object + be + V3."],["Active: The cake has been eaten by the children.",["The children have eaten the cake.","The children ate the cake.","The children eat the cake."],0,"has been + V3 returns to have + V3."],["Passive: She was singing a song.",["A song was being sung by her.","A song was sung by her.","A song is being sung by her."],0,"Past continuous: was being + V3."]],
+9:[["He said, “I have finished my work.”",["He said that he had finished his work.","He said that he has finished his work.","He said that I had finished my work."],0,"Present perfect becomes past perfect."],["She said to me, “You are late.”",["She told me that I was late.","She told me that you were late.","She said me that I am late."],0,"You becomes I because she was talking to me."],["The teacher said, “Be quiet.”",["The teacher ordered us to be quiet.","The teacher said us be quiet.","The teacher asked that be quiet."],0,"Commands use ordered or told + to + verb."],["He asked me, “Have you finished?”",["He asked me if I had finished.","He asked me that I have finished.","He asked me had I finished."],0,"Yes/no questions use if or whether."],["He said, “The sun rises in the east.”",["He said that the sun rises in the east.","He said that the sun rose in the east.","He said the sun will rise."],0,"A universal truth keeps the present tense."],["She said, “I was reading yesterday.”",["She said that she had been reading the day before.","She said that she was reading yesterday.","She said she reads the day before."],0,"was reading becomes had been reading; yesterday becomes the day before."]]};
+for(var k in X)X[k].forEach(function(q){T[k].q.push(q)});
+var RB=[["Content: I answered the exact question with enough ideas",5],["Organisation: clear beginning, middle and end (or the correct format)",3],["Grammar: correct tenses and sentences",3],["Vocabulary: simple, suitable words",2],["Spelling, punctuation and neatness checked",2]];
+function qh2(qs,pre){var h="";qs.forEach(function(q,i){h+='<div class="q"><p>'+(i+1)+'. '+q[0]+'</p>';q[1].forEach(function(o,j){h+='<button class="o pq" data-p="'+pre+'" data-i="'+i+'" data-j="'+j+'">'+o+'</button>'});h+='<div class="why" id="w'+pre+i+'"></div></div>'});return h}
+function nx(c){document.getElementById("n"+c).style.display="none";var s=document.getElementById("s"+(c+1));s.style.display="block";s.scrollIntoView({behavior:"smooth"})}
+function rs(){var t=0;document.querySelectorAll(".rb:checked").forEach(function(b){t+=+b.value});document.getElementById("rt").textContent=t}
+function topic(i){var x=T[i];window.scrollTo(0,0);var d=document.createElement("div");d.innerHTML=x.learn;var ch=[],cur=[];Array.prototype.forEach.call(d.children,function(e){if(cur.length&&(e.tagName=="H3"||cur.length>=2)){ch.push(cur);cur=[]}cur.push(e.outerHTML)});ch.push(cur);
+var n=ch.length,q=x.q.length;S={score:0,done:0,total:q,left:{}};var h='<a class="back" onclick="home()">← All topics</a><div class="tag">'+(x.u==1?"Unit I":"Unit II")+'</div><h1>'+x.t+'</h1><p class="mu">'+n+' parts, '+q+' practice questions. Answer each check to unlock the next part.</p>';
+ch.forEach(function(c,k){var a=Math.floor(k*q/n),b=Math.floor((k+1)*q/n),qs=x.q.slice(a,b),pre="c"+k;S[pre]=qs;S.left[pre]=qs.length;
+h+='<section id="s'+k+'" style="display:'+(k?"none":"block")+'">'+c.join("")+(qs.length?'<div class="tag">Check your understanding</div>'+qh2(qs,pre):"");
+h+=(k<n-1?'<button class="btn" id="n'+k+'" onclick="nx('+k+')" '+(qs.length?"disabled":"")+'>Continue →</button>':"")+'</section>'});
+h+='<div id="res"></div>';if(x.u==1){h+='<h2>Your turn: self-mark (15 marks)</h2><p class="mu">Write your full answer on paper first. Then tick what you honestly did.</p><div class="card">';RB.forEach(function(r){h+='<label style="display:block;margin:6px 0"><input type="checkbox" class="rb" value="'+r[1]+'" onchange="rs()"> '+r[0]+' ('+r[1]+')</label>'});h+='<b>Your mark: <span id="rt">0</span> / 15</b></div>'}
+h+='<button class="btn" onclick="fin('+i+')">Mark topic as done ✓</button>'+(i<T.length-1?'<button class="btn g" onclick="topic('+(i+1)+')">Next topic →</button>':"")+'<button class="btn g" onclick="home()">Home</button>';A.innerHTML=h}
+A.addEventListener("click",function(e){var b=e.target.closest(".pq");if(!b||b.disabled)return;var pre=b.dataset.p,i=+b.dataset.i,j=+b.dataset.j,q=S[pre][i];A.querySelectorAll('.pq[data-p="'+pre+'"][data-i="'+i+'"]').forEach(function(x,k){x.disabled=true;if(k==q[2])x.classList.add("ok")});if(j!=q[2])b.classList.add("no");else S.score++;document.getElementById("w"+pre+i).textContent=(j==q[2]?"Correct. ":"Not quite. ")+q[3];S.done++;if(--S.left[pre]==0){var nb=document.getElementById("n"+pre.slice(1));if(nb)nb.disabled=false}if(S.done==S.total)document.getElementById("res").innerHTML='<div class="box"><b>Topic score: '+S.score+" / "+S.total+"</b><br>"+(S.score>=S.total*.8?"Excellent work!":"Good effort. Re-read the parts where you missed questions.")+"</div>"});
+home();
+</script></body></html>
